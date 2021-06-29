@@ -1,0 +1,26 @@
+{
+  "name": "sports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "watch:js": "parcel watch ./public/index.js --out-dir ./public/js --out-file bundle.js --public-url /js",
+    "build:js": "parcel build ./public/index.js --out-dir ./public/js --out-file bundle.js"
+  },
+  "author": "'Malay Chandan'",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
